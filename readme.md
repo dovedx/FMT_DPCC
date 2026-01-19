@@ -50,3 +50,17 @@ python test_mpeg_cond_RA_onowlii_knnfixed.py
 --point_conv=False 
 --fuse_conv=False
 
+##train:
+python trainer_cond2_onowlii_knnfixed.py
+ --batch_size=1 
+ --gpu=0 
+ --lamb=20 
+ --channels=32 
+ --exp_name=20241204_lambda20_300frame_fixedknn_v5_onowlii_context_cond_bn_crosstransfomerv2_KNN32_new 
+ --dataset_dir='/dengx/dengxuan/AVS_P/Owlii/' 
+ --pretrained='model_path'   
+ --entropy_mode='context_cond' 
+ --learning_rate=0.0001 
+ --knn_fixed=True 
+ --point_conv=False 
+ --scale_wave=False
