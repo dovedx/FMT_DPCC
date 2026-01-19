@@ -31,7 +31,7 @@ We provide testing scripts that support evaluation on the **MPEG 8i** dataset.
 
 ### First Frame Compression
 
-- For compressing the **first frame** of each sequence, static point cloud compressors  **SparsePCC** can be applied.
+- For compressing the **first frame** of each sequence, static point cloud compressor  **SparsePCC** can be applied.
 
 ## Test:
 python test_mpeg_cond_RA_onowlii_knnfixed.py 
