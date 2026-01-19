@@ -50,7 +50,7 @@ python test_mpeg_cond_RA_onowlii_knnfixed.py
 --point_conv=False 
 --fuse_conv=False
 
-##train:
+## Test:
 python trainer_cond2_onowlii_knnfixed.py
  --batch_size=1 
  --gpu=0 
